@@ -1,11 +1,11 @@
 text()
 function text
 dim a
-a=InputBox("�аְ֣�")
-if a="�ְ�"then
-Msgbox"������ԣ�",0,"��ϲ"
+a=InputBox("叫爸爸！")
+if a="爸爸"then
+Msgbox"儿子真乖！",0,"恭喜"
 else
-Msgbox"��Ƥ�����аְֻ����ܣ�",0,"����һ�Σ�"
+Msgbox"调皮，不叫爸爸还想跑？",0,"再选一次！"
 text()
 end if
 end function
